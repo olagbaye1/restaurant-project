@@ -10,3 +10,11 @@ dots.forEach((dot, i) => {
     dots[i].classList.add("active");
   });
 });
+
+
+// const hamburger = document.getElementById("hamburger");
+//   const nav = document.querySelector(".navright");
+
+//   hamburger.addEventListener("click", () => {
+//     nav.classList.toggle("show");
+//   });
