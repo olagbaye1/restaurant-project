@@ -1064,15 +1064,15 @@ h5 {
     width: 100px;
     z-index: 1;
     position: relative;
-    bottom: 460px;
-    left: 100px;
+    bottom: 180px;
+    left: 220px;
   }
   .firstboy > :nth-child(4) {
-    width: 100px;
+    width: 40px;
     z-index: 1;
     position: relative;
-    bottom: 190px;
-    left: 80px;
+    bottom: 60px;
+    left: 50px;
   }
 
   .secondboy {
@@ -1080,5 +1080,249 @@ h5 {
     top: 200px;
     right: 160px;
     width: 100%;
+  }
+
+  .seccondflowers {
+    width: 120px;
+    position: relative;
+    bottom: 150px;
+    left: 120px;
+  }
+
+  .secondboy > :nth-child(2) {
+    font-size: 700;
+    font-family: "David Libre", serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: #101a24;
+  }
+
+  .divholdingthesction {
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: -90px;
+  }
+
+  .firstpartthirdsec {
+    width: calc(100% - 40px);
+    margin: auto;
+  }
+
+  .firstpartthirdsec > h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .firstpartthirdsec > p {
+    text-align: center;
+  }
+
+  .secondpartthirdsec {
+    width: calc(100% - 40px);
+    margin: auto;
+  }
+
+  .secondpartthirdsec > img {
+    height: 550px;
+    top: 40px;
+  }
+
+  .twobts {
+    position: relative;
+    right: 50px;
+  }
+
+  .customersection > img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .secondflayimage {
+    display: none;
+  }
+  .happycustomers {
+    width: calc(100% - 40px);
+    margin: auto;
+  }
+  .happycustomers > h3 {
+    font-size: 30px;
+    position: relative;
+    right: 30px;
+  }
+  .happycustomers > p {
+    position: relative;
+    right: 60px;
+    margin-top: -1px;
+  }
+  .slider {
+    position: relative;
+    right: 70px;
+  }
+
+  .slide {
+    width: 90%;
+  }
+  .dots {
+    position: relative;
+    right: 70px;
+    bottom: 40px;
+  }
+  .promomessage {
+    font-size: 25px;
+    line-height: 37px;
+  }
+  .sarchbar {
+    width: calc(100% - 10px);
+    margin-top: 10px;
+  }
+
+  .inputbar {
+  }
+
+  .inputbar {
+    position: relative;
+    top: 150px;
+    left: -0px;
+    width: 370px;
+  }
+  .inputbar > input {
+    padding: 13px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    width: 350px;
+  }
+  .inputbar > input::placeholder {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #101a24;
+    opacity: 0.4;
+  }
+  .inputbar > button {
+    padding: 7px;
+    width: 110px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    background-color: #ea6d27;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    right: -260px;
+    bottom: 35px;
+  }
+
+  .footerdiv {
+    height: 350px;
+    margin-top: 60px;
+    z-index: 1;
+    width: calc(100% - 40px);
+  }
+  .loremsmaly {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #5c6574;
+    line-height: 24px;
+  }
+  .linkinside {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #5c6574;
+  }
+  h5 {
+    color: #101a24;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+  }
+  .foolowus{
+    position: relative;
+    top: 400px;
+  }
+
+  .Special {
+    position: relative;
+    top: 480px;
+  }
+  .firstfootersec {
+    width: 40%;
+  }
+
+  .divclass {
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    margin-top: 500px;
+  }
+  .divclass > p {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #5c6574;
+    line-height: 24px;
+  }
+
+  .secondfooterch > a {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #5c6574;
+    text-decoration: none;
+    z-index: 3;
+  }
+  .secondfooterch {
+    width: 20%;
+  }
+  .linedivlong {
+    margin-top: 360px;
+    border: 1px solid #101a24;
+    width: 90%;
+    opacity: 0.5;
+  }
+  .finalline {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 700px;
+  }
+  .spanimage {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 1;
+  }
+  .spanimage > p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #5c6574;
+    font-family: "Inter", sans-serif;
+  }
+  .isaaac {
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.6;
+  }
+  .linkguys > a {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #5c6574;
+    text-decoration: none;
+  }
+  .linkguys {
+    display: flex;
+    gap: 17px;
+  }
+  .lastborn {
+    width: 600px;
+    position: relative;
+    right: 150px;
+    bottom: 180px;
+    pointer-events: none;
   }
 }
